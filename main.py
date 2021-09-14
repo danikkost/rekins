@@ -1,7 +1,5 @@
 import rekins
 
-
-
 def print_info():
     # Programmu palaižot,
     # uz ekrāna tiek izvadīts īss apraksts par programmas darbību.
@@ -15,9 +13,9 @@ def lietotaja_ievade():
 # kokmateriāla cenu EUR/m 2 .
     vards = input('Ieraksti vardu: ')
     veltijuma_teksts = input('Ievadi veltijuma tekstu kastitei: ')
-    platums = input('Cik plata kastite? ***Noraadi milimetrus. Tikai veseli skaitli!***')
-    garums = input('Cik  plata garumaa? ***Noraadi milimetrus.Tikai veseli skaitli!***')
-    augstums = input('Cik  augsta? ***Noraadi milimetrus.Tikai veseli skaitli!***')
+    platums = input('Cik plata kastite? Noraadi milimetrus. Tikai veseli skaitli!')
+    garums = input('Cik  plata garumaa? Noraadi milimetrus.Tikai veseli skaitli!')
+    augstums = input('Cik  augsta? Noraadi milimetrus.Tikai veseli skaitli!')
     kokmateriala_cena = input('Kokmateriala cena')
     return vards, veltijuma_teksts, platums, garums, augstums, kokmateriala_cena
 
