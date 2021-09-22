@@ -22,12 +22,14 @@ def lietotaja_ievade():
     print("PVN summa: €" + format(PVN_summa, ",.2f"))
     print("rekina_summa: €" + format(rekina_summa, ",.2f"))
     
-    
+    f = open("rekins.txt", "w")
+    f.write()
+    f.close()    	    
 from datetime import date
 today = date.today()
 print("Today's date:", today)
     
-    	
+   
 
 if __name__ == '__main__':
     print_info()
